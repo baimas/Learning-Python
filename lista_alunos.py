@@ -9,7 +9,7 @@ notas = []
 
 interador = 1
 
-while(interador <= 5):
+while(interador <= 2):
      nome = input(f"Insira o nome do aluno {interador}: ")
      nota = float(input(f"Insira a nota do aluno(a) {nome}: "))
      alunos.append(nome)
@@ -20,4 +20,7 @@ media = (sum(notas)/5)
 
 print(f"Esse são os nomes dos alunos: {alunos}")
 print(f"\nMedia do grupo: {media}")
+
+#Update do Exercicio proposto
+print(f"As notas em ordem Crescente são {sorted(notas)}")
 
