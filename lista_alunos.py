@@ -3,7 +3,6 @@ Programa para solicitar cinco nomes de alunos e suas respectivas notas e imprimi
 Usar uma lista para armazenar os nomes e outra para guardar as notas dos estudantes. 
 '''
 
-#Entrada
 alunos = []
 notas = []
 
@@ -21,3 +20,4 @@ media = (sum(notas)/5)
 
 print(f"Esse são os nomes dos alunos: {alunos}")
 print(f"\nMedia do grupo: {media}")
+
