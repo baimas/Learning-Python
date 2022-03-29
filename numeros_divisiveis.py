@@ -11,3 +11,13 @@ for i in numeros:
         soma = soma + 1
 
 print(f"\n\nHá {soma} números que satisfazem a condição de números divisiveis por 3 e 5")
+print(f"\n\n")
+print(f"Numeros divisiveis por 2, 3 e 4\n")
+
+#Exercicio Proposto
+
+numeros2 = range(1000,9001)
+for i in numeros2:
+    if i % 2 ==0 and i % 3 == 0 and i % 4 == 0:
+        print(f"{i} ," , end='')
+
